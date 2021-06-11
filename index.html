@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pau's project</title>
     <link rel="preconnect" href="https://fonts.gstatic.com"> 
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="styles.css"/>
+<link rel="stylesheet" href="./css/media.css" media="(min-width: 930px)"/>
 </head>
     <body>
         <header>
@@ -17,7 +18,7 @@
                 <p>
                     Batatabit te ayuda a navegar entre los diferentes precios y tendencias
                 </p>
-                <a href="" class="header--button">Conoce nuestros planes <span></span> </a>
+                <a href="#planes" class="header--button">Conoce nuestros planes <span></span> </a>
             </div>
         </header>
         <main>
@@ -100,7 +101,7 @@
 
                 <section class="product-cards--container">
                     <article class="product-detail--card">
-                        <span class="clock"> </span>
+                        <span class="icon clock"> </span>
                         <p class="product--card-title"> 
                             Tiempo real
                         </p>
@@ -110,18 +111,105 @@
                         </p>
                     </article>
                 </section>
+
+                <section class="product-cards--container">
+                    <article class="product-detail--card">
+                        <span class="icon eye"> </span>
+                        <p class="product--card-title"> 
+                            No hay tasas escondidas
+                        </p>
+                        <p class="product--card-body">
+                            Ni en la compra ni en el momento del exit,
+                            Batatabit siempre muestra el costo real 
+                            de lo que estas adquiriendo.
+                        </p>
+                    </article>
+                </section>
+
+                <section class="product-cards--container">
+                    <article class="product-detail--card">
+                        <span class="icon dollar"> </span>
+                        <p class="product--card-title"> 
+                            Compara monedas
+                        </p>
+                        <p class="product--card-body">
+                            No mas rumores, con Batatabti podras saber el 
+                            valor real de cada moneda en el mercado actual
+                        </p>
+                    </article>
+                </section>
+
+                <section class="product-cards--container">
+                    <article class="product-detail--card">
+                        <span class="icon check"> </span>
+                        <p class="product--card-title"> 
+                            Informacion confiable
+                        </p>
+                        <p class="product--card-body">
+                             Nuestras fuentes estan 100% verificadas y continuamos
+                             auditando su contenido mientras se actualizan.
+                        </p>
+                    </article>
+                </section>
             </section>
 
-            <section>
-
+            <section class="bitcoin-img-container">
+                <h2 >Conocelo hoy.</h2>
             </section>
 
-            <section>
+            <section id="planes" class="main-plans-container">
+                <div class="plans--title">
+                    <h2>
+                        Escoge un plan que mejor se ajuste a ti.
+                    </h2>
+                    <p>
+                        Cualquier plan da acceso a nuestra plataforma 
+                    </p>
+                </div>
+                <section class="plans-container--slider">
+                    <article class="plans-container--card">
+                        <p class="tag">Recomendado</p>
+                        <div class="plan-info-container">
+                            <h3 class="plan-card--title">Pago Anual</h3>
+                            <p class="plan-card--price"><span >$</span> 99</p>
+                            <p class="plan-card--saving">* Ahorras $129 escogiendo este plan mensual.</p>
+                            <button class="plan-card--ca">Escoger este <span> </span></button>
+                        </div>
+                    </article>
 
+                    <article class="plans-container--card">
+                        <p class="tag">Economico</p>
+                        <div class="plan-info-container">
+                            <h3 class="plan-card--title">Pago mensual</h3>
+                            <p class="plan-card--price"><span >$</span> 8</p>
+                            <p class="plan-card--saving">* Adquiere una suscripcion limitada</p>
+                            <button class="plan-card--ca">Escoger este <span> </span></button>
+                        </div>
+                    </article>
+
+                    <article class="plans-container--card">
+                        <p class="tag">Para ti</p>
+                        <div class="plan-info-container">
+                            <h3 class="plan-card--title">Pago trimestral</h3>
+                            <p class="plan-card--price"><span >$</span> 22</p>
+                            <p class="plan-card--saving">* Obten descuentos y facilidad de pago </p>
+                            <button class="plan-card--ca">Escoger este <span> </span></button>
+                        </div>
+                    </article>
+                </section>
             </section>
         </main>
         <footer>
-            
+            <section class="left">
+                <ul>
+                    <li><a href="#">LinkedIn</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </section>
+            <section class="rigth">
+                <img src="./assets/img/logo-footer.svg" alt="Logo de batatabit"/>
+            </section>
         </footer>
     </body>
 </html>
