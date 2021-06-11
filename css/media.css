@@ -5,7 +5,16 @@
     margin: 0 auto;
 }
 
+.plans--title{
+    width: 100%;
+}
+
 .plans-container--slider{
     justify-content: center;
     overflow: hidden;
+}
+
+footer .rigth img{
+    height: 80px;
+    width: 80px;
 }
